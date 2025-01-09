@@ -78,3 +78,25 @@
         - double -> nextDouble()
         - boolean -> nextBoolean()
         - string -> nextLine()
+
+
+# Loop Statements:-
+    1. Loop statement are used to execute a set of instruction repeatedly until the condition becomes false.
+    2. Loop statement are control flow statement is 
+    3. In every loop statement there are 3 parts 
+        (1) condition - condition helps the programmer to control the loop. If the condition is true the loop statement
+                        goes for another cycle. If the condition is false then loop stops or get terminated
+        (2) initialization - it specifies the starting point of the loop.
+        (3) update - update statement must be in every iteration cycle. the update statement must help the condition to become
+                    false, after desired number of iterations.
+
+# Different Types of Loop Statement:
+    1. While Loop:
+    syntax - while(condition) {
+             statement;
+             update;
+            }
+        
+        In while loop the initialization must be done before the starting of the loop. in a while loop first the condition
+        is checked. If the condition is true the statement of while block is executed with an update. These keep of happenning
+        until the condition becomes false. Once the condition is false the control comes out of the while loop.
