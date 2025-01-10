@@ -1,6 +1,6 @@
 package ControlFlowStatement;
 
-public class IfElseIf2 {
+class IfElseIf2 {
     public static void main(String[] args) {
         if(false) {
             System.out.println("from if bloack");

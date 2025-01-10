@@ -1,12 +1,11 @@
 package ControlFlowStatement;
 
-public class Loop1 {
+class DoWhile1 {
     public static void main(String[] args) {
         int start = 0;
-        while(start <5) {
+        do {
             System.out.println("I love India");
-            start++;
-        }
-        System.out.println("Hello world");
+            ++start;
+        } while(start < 5);
     }
 }

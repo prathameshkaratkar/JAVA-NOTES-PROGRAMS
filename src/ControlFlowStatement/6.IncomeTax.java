@@ -1,6 +1,6 @@
 package ControlFlowStatement;
 
-public class IncomeTax {
+class IncomeTax {
     public static void main(String[] args) {
         int annualSal = 2500000;
         if(annualSal > 0 && annualSal <= 250000){

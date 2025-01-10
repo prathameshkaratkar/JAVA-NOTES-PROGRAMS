@@ -1,6 +1,6 @@
 package ControlFlowStatement;
 
-public class Loop5 {
+class Loop5 {
     public static void main(String[] args) {
         int start = 1;
         while(start <= 100) {

@@ -2,7 +2,7 @@ package ControlFlowStatement;
 
 import java.util.Scanner;
 
-public class MergeName {
+class MergeName {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
         System.out.println("enter your first name : ");

@@ -1,6 +1,6 @@
 package ControlFlowStatement;
 
-public class If1 {
+class If1 {
     public static void main(String[] args) {
         String study = "12 th";
         if(study == "12 th") {

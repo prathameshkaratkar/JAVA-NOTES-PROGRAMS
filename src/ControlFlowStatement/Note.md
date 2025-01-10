@@ -100,3 +100,14 @@
         In while loop the initialization must be done before the starting of the loop. in a while loop first the condition
         is checked. If the condition is true the statement of while block is executed with an update. These keep of happenning
         until the condition becomes false. Once the condition is false the control comes out of the while loop.
+
+    
+    2. Do While Loop: 
+        In do while loop first the statement are executed and then the condition is checked. The minimum numberof execution
+        of a do while loop is 1 where as minimum number of execution of a while loop is zero.
+
+    3. For Loop:
+        In a for loop initiazation, condition and update statement are declared together. Here the control goes to the
+        initialization part and the checks the condition. If the condition is true the control gets inside the loop block
+        and the statement are executed. When all the statement are executed the control goes to the update part.
+        After the update again it checks for condition and hence the cycle will repeates, until the condition become false.

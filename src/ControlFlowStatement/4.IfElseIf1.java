@@ -1,6 +1,6 @@
 package ControlFlowStatement;
 
-public class IfElseIf1 {
+class IfElseIf1 {
     public static void main(String[] args) {
         double per = 59.99999;
         if(per == 35) {

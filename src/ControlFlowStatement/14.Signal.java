@@ -1,6 +1,6 @@
 package ControlFlowStatement;
 
-public class Signal {
+class Signal {
     public static void main(String[] args) {
         String signal = "Red";
         if (signal == "Red") {

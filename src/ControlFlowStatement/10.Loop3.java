@@ -1,10 +1,11 @@
 package ControlFlowStatement;
 
-public class Loop4 {
+class Loop3 {
     public static void main(String[] args) {
         int start = 0;
-        while(true) {
-            System.out.println("Happy womens day");
+        while(start < 20) {
+            System.out.println(start);
+            start++;
         }
     }
 }
