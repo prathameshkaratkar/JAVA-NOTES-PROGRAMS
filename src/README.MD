@@ -59,3 +59,16 @@ Q. What is Programming Language?
         Numbers, Characters, Boolean
     2. Multi value Data
         String, Array, Class
+
+# Type Casting
+    Windening and Narrowing and also Upcasting and Downcasting
+
+# Operators and their Types
+    Logical, Bitwise, Assignment, Comparative, Compunding, Arithmetic 
+
+# Control Statement and Looping With Examples
+    If, Else if and Else statement
+    Looping : for loop
+             Do while loop
+             While loop
+             Switch Case
