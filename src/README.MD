@@ -72,3 +72,6 @@ Q. What is Programming Language?
              Do while loop
              While loop
              Switch Case
+
+
+# Methods :-
