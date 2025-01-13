@@ -2,6 +2,8 @@
     1. Methods are nothing but block of instruction which get executed when they are called.
     2. Methods are designed to perform specific task.
     3. Methods are used to achieve code modularity.
+    
+    Eg. 1,2
 
 ## Code Modularity :-
     It is a design of breaking the entire task into
@@ -86,6 +88,11 @@
     2. A method can be called any number of times.
     3. A variable declared inside a method stays local to that
      method we cannot use it in different methods.
+    4. A class can have any number of methods, We can have two
+    two or more methods which are having local variables
+    declared with same name
+    
+    Eg. 3, 4
 
 ## Formal Arguments :
     1. The variable declared in the method declaration statement
@@ -99,6 +106,8 @@
     2. Actual argument can also be an expression. First the expression is solved and then the 
      result data is passed to the methods.
 
+    Eg. 5
+
 ## Work of Main Method:
     1. We can compile a progrma without main method but
     we can't execute
@@ -106,6 +115,8 @@
     3. Execution of a program starts with Main method.
     4. Execution flow is controlled by Main Method
     5. Execution ends at main method.
+
+    Eg. 6,7,8,9,10
 
 
 # Return :
@@ -122,6 +133,8 @@
     return back to the calling method  OR
     Return statement cna do widening  OR
     Return statement cannot do narrowing implicitly.
+
+    Eg.. 11,12
 
 
 
@@ -148,12 +161,16 @@
     4. We do method overloading when the functionality or operation
     is same but the values are different .
 
+    Eg... 13
+
 ## Static :-
     1. Static is a keyword and a modifier.
     2. Static modifier can be prefixed to a method
     or a variable or a block created inside a class
     3. The members which are prefixed with static modifier
     are called static members.
+
+    
 
 #### Note :
     1. Static members are called class members.
@@ -166,5 +183,43 @@
     5. We can use a static members  without creating an object for a class.
 
 #### Static Methods :
-    
+    1. A method prefixe with static modifier is known as static method.
+    2. A static method body will be stored in method area.
+    3. The method signature with a reference is loaded in class static area.
+    4. A static method can be used within the same class directly with its
+    name or with the help of class name.
+    5. The static method block is also known as static context.
 
+    Eg... 14,15
+
+### Static Variables:
+    1. static variable are global variables.
+    2. the variable declared in the class block which are prefixed
+    with static modifier are known as static variables.
+    3. A static variable can be used inside any members of 
+    the same class and any members of different class.
+
+    Eg... 16,17,18,19,20,21,22
+
+### Static Initializers :
+    1. Static initializers get executed during the loading process
+    of a class.
+    2. We can use static intilizers for setting up the environment before  
+    the actual execution starts.
+    3. We can also them to give startup execution to the user.
+    (1) Static declare & initialization statement
+
+    (2) Static Block = A block created in the class block and prefixed with
+        static modifier is known as static block.
+            Syntax -> class ClassName{
+                    static{
+                        statements;
+                    }
+                }
+
+        A static block does not have any name.
+        A static block cannot have return any value.
+        A static block cannot have any access modifiers.
+        It cannot accept any formal arguments.
+
+        Eg... 23,24
