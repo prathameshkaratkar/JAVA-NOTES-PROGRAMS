@@ -75,3 +75,15 @@ Q. What is Programming Language?
 
 
 # Methods :-
+    1. Code Modularity.
+    2. Advantages of methods
+    3. Terminologies
+    4. Methods are classified into two based on formal arguments
+    5. Characteristics
+    6. Working of Main methods
+    7. Return
+    8. Method Binding Process
+    9. Method Overloading
+    10. Static  -> static method, static block and static initializers
+    
+    
