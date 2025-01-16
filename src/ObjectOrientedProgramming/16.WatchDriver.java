@@ -27,7 +27,7 @@ class Watch {
         System.out.println("Strap: " + strap);
     }
 }
-public class WatchDriver {
+class WatchDriver {
     public static void main(String[] args) {
         Watch w1  = new Watch("Titan",3000.00,"analog",false,34345,"leather");
         w1.displayWatch();

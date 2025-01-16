@@ -218,5 +218,113 @@ Eg... 16
 
 ### Constructor Overloading :
 ```
+A class having more than one constructor is known as constructor overloading
 
 ```
+#### Rule 1 :
+```
+1. Name of the constructor must be same.
+2. The formal argument of the construction must change either in its type
+    or number of formal arguments.
+```
+#### Purpose of parameterized constructor:
+```
+1. It is used to initialize the data members of the object.
+2. An user can a constructor for giving startup instruction.
+```
+#### Note :
+```
+1. Constructor cannot be static.
+2. A constructor cannot have any return type.
+
+Eg... 17
+```
+### • Constructor Chaining:
+```
+1. One constructor calling another constructor for execution
+    is called constructor chaining.
+2. In java, we can achieve constructor chaining two way
+    (1) this() (this call statement)
+    (2) super() (super call statement)
+    
+    
+```
+#### This() :-
+```
+1. It is used to achieve constructor chaining within the same class.
+
+Rule --> (1) This call statement must be first statement inside constructor body.
+        (2) This call statement can only be used inside a constructor 
+        (3) Recursive call of constructor is not allowed.
+        (4) If a class has n number of constructor we can use this 
+            call statement inside n-1 constructor.
+            
+```
+### Loading Process of Object:
+```
+1. New operator creates a block of memory for the object in the heap area 
+    and returns the reference of the block.
+2. The constructor is called and execute
+    (1) It loads the non static members of the class.
+    (2) Non static variable are allocated with default values.
+    (3) Non static method with its reference is loaded object its method signature.
+    (4) All non static initialized are executed in top to bottom order.
+    (5) The user returns statement of the constructor get executed
+    (6) This ends the execution of the constructor 
+    (7) In turn ends the loadind process of the object.
+    
+    Eg... 18
+```
+
+
+# PACKAGES :
+```
+1. It is mechanism of grouping or organising similar java file.
+2. A group of related class and interfaces put together
+    to form a single entity is known as packages.
+3. Packages are of two types:
+    (1) User Define Packages.
+    (2) Built in Packages.
+    
+```
+### Built in Packages:
+```
+1. The packages created by the developers of the long, which
+    are available to use directly by importing called built in packages.
+    Eg..
+        Java -> io
+        Java -> AWT
+        Java -> long
+        Java -> util
+        Java -> Math
+        Java -> Sal
+```
+
+### User Define Packages :
+```
+1. We can create a packages with the help of keyword
+    called packages.
+2. The packages created by programmer are called user defined package.
+3. the statement of creating a package must be first statement in java programmer.
+```
+
+## Advantages of Packages:
+```
+1. Modularity of software is increase.
+2. Maintainabilitiy of software is increase.
+3. Code reusability.
+4. Security of software is increase.
+```
+
+## Principles of object oriented Programming:
+```
+1. Object oriented programming has 4 multiples which helps programmer to design
+    efficient software 
+    (1) Encapsulation
+    (2) Polymorphism
+    (3) Inheritance.
+    (4) Abstraction.
+```
+
+
+
