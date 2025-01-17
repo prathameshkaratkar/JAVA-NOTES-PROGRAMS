@@ -46,3 +46,82 @@ It is a process of restriction direct access to the attributes of a class
     (2) Is - A relationship
 ```
 
+### (1) Has A relationship:
+```
+The association betwen two or more objects such that one object 
+such that one object is dependent on another is known as Has a relationship.
+
+NOTE -> 
+    According to level of dependency we can further 
+    classify Has a relationship into
+    [1] Composition.
+    [2] Aggregation.
+```
+#### [1] Composition ->
+```
+It is the association between two or more objects
+where one object cannot exist without another object.
+This behaves like part and whole relationship.
+Eg...
+    Car - Engine
+    Hardware - Software
+    Mobile - Charger
+    Bottle - Cap
+    Lock - Key
+    Projector - Screen
+    Book - Paper
+```
+#### [2] Aggregation ->
+```
+It is the association between two or more objects
+there is a dependencies but one can exists without another.
+Eg...
+    Water - Fish
+    Chair - Human
+    Dog - Belt
+    Human - Shoe
+    ATM - Money
+    Human - Mobile
+```
+
+### Early Instanciation and Lazy Instanciation :
+
+#### (1) Early Instanciation :
+```
+1. In Early Instanciation the instance of the dependent
+    object is implicitly created when the instance of the object
+    classes created (main object/class)
+2. this design is achieved with the help of non static initializers.
+
+Eg...
+    Encapsulation -> 4,5,6
+```
+
+## Null Pointer Exception: 
+```
+When we tried to refer a non static member of an 
+object where the reference variable contains null value
+then we get null pointer exception
+
+
+NOTE -> 
+    (1) The parent class is called generalized
+    (2) The child class is called specialized.
+    (3) With the help of child class reference type we
+        can use all members of parent class as well as
+        child class.
+    (4) With the help of parent class reference type we can only
+        use the members of parent class but not child class member.
+        
+```
+
+### Terminologies :
+```
+Parent class is also called as base class or super class.
+Child class is also called as sub classs or derived class.
+We can achieve relationship with help of Inheritance.
+```
+
+
+
+
