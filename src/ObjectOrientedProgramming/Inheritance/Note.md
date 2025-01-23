@@ -29,4 +29,15 @@ In java we can achieve inheritance using
 ```
 Inheritance achieved in one level is called single
 level inheritance. (one parent and one child)
+
+Eg... 4,5,6
+```
+
+#### 2. Multi Level Inheritance: 
+```
+Inheritance achieved in more than one level.
+
+C extends B extends A
+
+Eg... 7,8,9,10
 ```
