@@ -41,3 +41,16 @@ All the exception classes override and throwable override toString method
 of object class in such a way they print the name of the exception along
 with a message.
 
+
+### Finally Block 
+```
+1. Finally block can be used along with try or try catch block
+2. The control will go the finally block in any of these situation.
+    (1)When an exception as occured.
+    (2)When an exception as occured and handled.
+    (3)Exception is occured in the try block and not handled, still
+        finally block gets executed and program gets terminated.
+3. The finally block will not executed when the exception has occured outside
+    the try block.
+```
+
